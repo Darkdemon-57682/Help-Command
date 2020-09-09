@@ -1,0 +1,16 @@
+RegisterCommand("help", function()
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+msg("")
+end, false)
+
+function msg(text)
+    TriggerEvent("chatMessage", "[Server]", {255,0,0}, text)
+end
